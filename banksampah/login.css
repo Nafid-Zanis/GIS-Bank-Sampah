@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,800;6..12,900&family=Poppins:wght@300&family=Roboto+Mono:wght@500&display=swap');
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 2000px;
+}
+#beranda {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 70px;
+}
+
+/* CSS Halaman Login */
+.halamanlogin{
+    background-color:#d9d9d9 ;
+    justify-content: center;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 635px;
+}
+.containerlogin{
+    margin: auto;
+    margin-top: 130px;
+}
+.gambar img{
+    margin-left: 10px;
+}
+.gambar{
+    width: 240px;
+    height: 410px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    float: left;
+}
+.login{
+    width: 260px;
+    height: 410px;
+    background-color:#276561;
+    margin-left: 280px;
+    padding: 20px;
+}
+.btngoogle{
+    width: 125px;
+    height: 35px;
+    background-color:#ffffff;
+    border-radius: 5px;
+    font-size: 8px;
+    display: flex;
+}
+.btnfb{
+    width: 125px;
+    height: 35px;
+    background-color:#3E70D2;
+    border-radius: 5px;
+    font-size: 8px;
+    color: white;
+    display: flex; 
+}
+.google{
+    position: absolute;
+}
+.facebook{
+    justify-content: right;
+    display: flex;
+}
+.login img{
+    width: 20px;
+    height: 20px;
+}
+.garis1{
+    margin-top: 13px;
+    width: 117px;
+    position: absolute;
+}
+.or{
+    margin-left: 123px;
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+}
+.garis2{
+    margin-top: 21px;
+    width: 116px;
+    margin-left: 142px;
+}
+.input input{
+	width: 246px;
+	height: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid silver;
+	padding: 5px;
+}
+.btn-login{
+    width: 258px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+    color: #276561;
+    font-family: 'nunito sans';
+    font-weight: bold;
+    margin-top: 140px;
+}
+.btn-login:hover {
+    background-color:#2761cc;
+    color: white;
+  }
+/* Akhir CSS halaman Login */
+
+/* CSS Halaman Register */
+.btn-login2{
+    width: 258px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+    color: #276561;
+    font-family: 'nunito sans';
+    font-weight: bold;
+    margin-top: 74px;
+}
+.btn-login2:hover {
+    background-color:#2761cc;
+    color: white;
+  }
+/* Akhir CSS halaman Register */
